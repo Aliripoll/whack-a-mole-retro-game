@@ -3,23 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
-    overflow: hidden;
+   
+      
+}
+
+
+.containerBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5BA73;
+    height: 100vh;
     
 }
 .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     color: #53a717;
     font-style: oblique;
     font-size: 35px;
-    margin-top: 35px;
-}
-
-.containerBody {
-    background-color: #E5BA73;
-    height: 100vh;
-    width: 100%;
+   
+  
 }
 
 
@@ -27,26 +31,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     font-size: 13px;
     color: #224B0C;
-    margin-top: 22px;
+    height: 20vh;
+    width: 100vw;
 }
 
 .secondContainer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;   
-    
+    width: 100vw;
+    height: 50vh;
 } 
 
 .square {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-style:double;
     border-color: #414302;
     background-color: #C58940;
     cursor: pointer;   
+   
 }
 
 .grid {
@@ -54,8 +62,9 @@
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    width: 420px;
-    height: 420px;
+    width: 300px;
+    height: 300px;
+    
 }
 
 .mole {
@@ -65,7 +74,7 @@
 
 .footer {
     background-color: #343d03bd;
-    height: 8vh;
+    height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +84,9 @@
     left: 0; 
     color: antiquewhite;
     font-size: 14px;
-    position: fixed;
+    position: absolute;
     width: 100%;
+    
    
 }
 
@@ -86,21 +96,23 @@
 }
 @media all and (min-width: 768px) {
     .square {
-        width: 180px;
-        height: 180px; 
+        width: 140px;
+        height: 140px; 
+        
     }
     .grid {
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
     }
     .title {
-        font-size: 45px;
+        font-size: 40px;
     }
     .firstContainer {
-        font-size: 15px;
+        font-size: 14px;  
     }
     .footer {
         font-size: 16px;
+        height: 7vh;
     }
     .copy {
         font-size: 14px;;
