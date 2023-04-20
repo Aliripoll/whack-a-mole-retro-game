@@ -14,16 +14,19 @@
     flex-direction: column;
     align-items: center;
     background-color: #E5BA73;
-    height: 100vh;
+    height: auto;
     
+}
+.header {
+    position:sticky;
+    margin-top: 30px;
+   
 }
 .title {
     
     color: #53a717;
-    font-style: oblique;
     font-size: 35px;
-   
-  
+    
 }
 
 
@@ -34,8 +37,9 @@
     gap: 12px;
     font-size: 13px;
     color: #224B0C;
-    height: 20vh;
+    height: 15vh;
     width: 100vw;
+    margin-bottom: 20px;
 }
 
 .secondContainer {
@@ -105,7 +109,7 @@
         height: 500px;
     }
     .title {
-        font-size: 40px;
+        font-size: 38px;
     }
     .firstContainer {
         font-size: 14px;  
