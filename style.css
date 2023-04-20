@@ -37,9 +37,9 @@
     gap: 12px;
     font-size: 13px;
     color: #224B0C;
-    height: 15vh;
+    height: 10vh;
     width: 100vw;
-    margin-bottom: 20px;
+    
 }
 
 .secondContainer {
@@ -113,6 +113,7 @@
     }
     .firstContainer {
         font-size: 14px;  
+        margin-bottom: 20px;
     }
     .footer {
         font-size: 16px;
